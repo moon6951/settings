@@ -1,0 +1,2 @@
+#可以在wt里用powershell标签打开astronvim
+"C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.16.10261.0_x64__8wekyb3d8bbwe\wt.exe" -d C:\Users\Administrator\Desktop  D:\tools\Neovim\bin\nvim.exe

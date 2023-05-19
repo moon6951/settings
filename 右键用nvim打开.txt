@@ -1,0 +1,17 @@
+先删除HKEY_CLASSES_ROOT/*/Shellx下的gvim
+
+ 
+
+ 
+
+1、win+r ：regedit
+
+2、HKEY_CLASSES_ROOT/*/Shell
+
+3、右键新建项“用nvim打开”
+
+4、右边新建一个字符串值：名称为“Icon" 值为："C:\Program Files (x86)\Vim\Vim74\gvim.exe"
+
+5、右键新建项“command”
+
+6、修改值：vim路径+空格+“%1”  example:"C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.16.10261.0_x64__8wekyb3d8bbwe\wt.exe" -d C:\Users\Administrator\Desktop  D:\tools\Neovim\bin\nvim.exe %1 
